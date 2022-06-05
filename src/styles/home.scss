@@ -1,0 +1,23 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.App {
+	font-family: sans-serif;
+}
+.home {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+	a {
+		margin: 10px;
+		text-decoration: none;
+		background-color: #555b91;
+		color: white;
+		padding: 12px;
+		border-radius: 100vw;
+	}
+}

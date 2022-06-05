@@ -1,0 +1,57 @@
+.space {
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(45deg, #feb692, #ea5455);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+
+	&_cords {
+		text-align: center;
+		h4 {
+			padding: 5px;
+			background: #ffffff61;
+			margin: 5px;
+		}
+	}
+	&_cntrls {
+		text-align: center;
+		margin-top: 25px;
+		h3 {
+			margin: 10px;
+		}
+		button {
+			all: unset;
+			background: #f5a6a0;
+			width: 35px;
+			height: 35px;
+			cursor: pointer;
+			border: 2px solid #a97571;
+			border-radius: 5px;
+			margin: 5px 10px;
+			transition: 0.3s;
+			&:hover {
+				background: #e78d87;
+			}
+		}
+	}
+}
+.container {
+	//border: 2px solid;
+	position: relative;
+	width: 400px;
+	display: flex;
+	flex-wrap: wrap-reverse;
+	.cell {
+		height: 40px;
+		width: 40px;
+		border: 2px solid #582b24;
+	}
+	.ship {
+		position: absolute;
+		transition: 0.3s;
+		transform: translate(-50%, 50%);
+		transform-origin: 0px 22px;
+	}
+}
