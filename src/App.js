@@ -1,5 +1,6 @@
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import Space from './space';
+import Store from './store';
 import './styles/home.css';
 
 const Home = () => {
@@ -18,7 +19,7 @@ function App() {
 				<Routes>
 					<Route path='/' element={<Home />} />
 					<Route path='/space' element={<Space />} />
-					<Route path='/store' />
+					<Route path='/store' element={<Store />} />
 				</Routes>
 			</BrowserRouter>
 		</div>
