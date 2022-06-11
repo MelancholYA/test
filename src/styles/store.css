@@ -121,3 +121,107 @@
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
+
+.store_cart {
+  width: 50%;
+  padding: 20px;
+  background: #ebebeb;
+  min-height: 100vh;
+}
+
+.store_cart_elmnts_element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 0;
+  margin: 10px 0;
+  border-bottom: 2px solid gainsboro;
+}
+
+.store_cart_elmnts_element_pic {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  border-radius: 100vw;
+  border: 1px solid #8a8a8a;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.store_cart_elmnts_element_pic img {
+  width: 100%;
+}
+
+.store_cart_elmnts_element_details {
+  width: calc(100% - 160px);
+  margin-left: 20px;
+}
+
+.store_cart_elmnts_element_details_name {
+  margin-bottom: 10px;
+}
+
+.store_cart_elmnts_element_details_controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.store_cart_elmnts_element_details_controls button {
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  margin: 0 5px;
+  border-radius: 100vw;
+  border-width: 1px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.store_cart_elmnts_element_details_controls button:nth-child(2) {
+  line-height: 15px;
+  margin-left: 10px;
+}
+
+.store_cart_elmnts_element_details_controls span {
+  font-weight: 900;
+  margin: 0 10px;
+}
+
+.store_cart_elmnts_element_price {
+  min-width: 50px;
+}
+
+.store_cart_elmnts_element_price_disc {
+  color: #ff3b3b;
+  text-decoration: line-through;
+}
+
+.store_cart_results {
+  text-align: right;
+}
+
+.store_cart_results_result {
+  margin: 10px 0;
+}
+
+.store_cart_results_result h5 {
+  margin: 5px;
+}
+
+.store_cart_results_result h5:nth-child(1) {
+  color: #5a5a5a;
+}

@@ -51,7 +51,7 @@ const Product = ({ product }) => {
 					</div>
 
 					<h3 className='store_products_list_item_details_right_price'>
-						{product.price}€
+						{product.price} £
 					</h3>
 				</div>
 			</div>
